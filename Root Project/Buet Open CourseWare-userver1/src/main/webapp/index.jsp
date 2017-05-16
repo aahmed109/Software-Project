@@ -26,38 +26,48 @@
 <body id = "page1">
     <div id = "body1">
         <div id = "main">
+            <nav>
+                <ul id="menu">
+                    <!--div id = "some">
+                    <!--li class = "drop"><a href="#">Departments</a></li-->
+                    <div class = "dropdown">
+                    <button class="dropbtn">Departments</button>
+                    <div class="dropdown_content">
+                        <a href="${pageContext.request.contextPath}/chem.html">Chemical Engineering</a>
+                        <a href="${pageContext.request.contextPath}/mme.html">Materials & Metallurgical Engineering</a>
+                        <a href="${pageContext.request.contextPath}/ce.html">Civil Engineering</a>
+                        <a href="${pageContext.request.contextPath}/wre.html">Water Resources Engineering</a>
+                        <a href="${pageContext.request.contextPath}/me.html">Mechanical Engineering</a>
+                        <a href="${pageContext.request.contextPath}/name.html">Naval Architecture & Marine Engineering</a>
+                        <a href="${pageContext.request.contextPath}/ipe.html">Industrial & Production Engineering</a>
+                        <a href="${pageContext.request.contextPath}/eee.html">Electrical & Electronic Engineering</a>
+                        <a href="${pageContext.request.contextPath}/cse.html">Computer Science & Engineering</a>
+                        <a href="${pageContext.request.contextPath}/bme.html">Biomedical Engineering</a>
+                        <a href="${pageContext.request.contextPath}/arch.html">Architecture</a>
+                        <a href="${pageContext.request.contextPath}/urp.html">Urban & Regional Planning</a>
+                    </div>
+                    </div>
+                    <div class = "dropdown">
+                        <button class="dropbtn">About</button>
+
+                        <div class="dropdown_content">
+                            <a href="#">About Us</a>
+                            <a href="#">About BUET</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
             <!-- header -->
             <header style="margin-left: 20%">
                 <div class="wrapper">
-                    <nav>
-                        <ul id="menu">
-                            <li><a href="#">About</a></li>
-                            <div class = "dropdown">
-                                <li class = "drop"><a href="#">Departments</a></li>
-                                <div class="dropdown_content">
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
-                                </div>
-                            </div>
-                            <li><a href="#">Programs</a></li>
-                            <li><a href="#">Teachers</a></li>
-                            <li><a href="#">Admissions</a></li>
-                            <li class="end"><a href="#">Contacts</a></li>
-                        </ul>
-                    </nav>
-                        <div class="wrapper">
-                            <h1 id = "logo">BUET OPEN COURSEWARE</h1>
-                            <div id="slogan">We Will Open The World<span>of knowledge for you!</span></div>
-                        </div>
+                    <div class="wrapper">
+                        <h1 id = "logo">BUET OPEN COURSEWARE</h1>
+                        <div id="slogan">We Will Open The World<span>of knowledge for you!</span></div>
                     </div>
+                </div>
             </header>
             <!-- / header -->
         </div>
-    </div>
-
-    <div class="body3">
-
     </div>
 
     <div class="body2">

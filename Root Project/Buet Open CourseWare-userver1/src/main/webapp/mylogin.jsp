@@ -86,7 +86,7 @@
                         <div class="pad_left1">
                             <h2>Log In</h2>
                             <p>Not a member? Sign up <a href="signup.html">here!</a></p>
-                            <form id="signInForm" action="/login.html" method="post">
+                            <form id="signInForm" action="${pageContext.request.contextPath}/login.html" method="post">
                                 <div>
                                     <div class="wrapper">
                                         <label><Strong>User ID:</Strong></label>
